@@ -1,0 +1,24 @@
+#titulo{
+    color: aqua;
+}
+#subtitulo, #azul{
+    color: blue;
+}
+#boldRojo, #resaltado, #rojo, th{
+    color: red;
+}
+#violeta{
+    color: violet;
+}
+.destacado, .especial, #amarillo{
+    color: yellow;
+}
+#verde, td{
+    color: green;
+}
+#adicional{
+    color: darkolivegreen;
+}
+#especial{
+    color: darkorchid;
+}
