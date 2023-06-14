@@ -1,16 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
 </head>
+
 <body>
     <h1>Registrar un usuario</h1>
-    <form action="">
-        <label for="Nombre">Nombre y Apellido</label><br>
-            <input type="text" name="nombre" placeholder="Nombre y Apellido">
-        
-    </form>
+    <section>
+        <form action="" method="post">
+            <div>
+                <label for="nombre">Nombre del usuario</label><br>
+                <input name="nombre" type="text" required>
+            </div>
+            <div>
+                <label for="contrasenia">Contraseña del usuario</label><br>
+                <input name="contrasenia" type="password" required>
+            </div>
+            <div>
+                <label for="edad">Edad del usuario</label><br>
+                <input name="edad" type="number" required>
+            </div>
+            <div>
+                <label for="date">Fecha de nacimiento del usuario</label><br>
+                <input name="edad" type="date">
+            </div>
+            <div>
+                <label for="sexo">Sexo del Usuario</label><br>
+                <input name="sexo" type="radio" value="h">Hombre <br>
+                <input name="sexo" type="radio" value="m">Mujer <br>
+                <input name="sexo" type="radio" value="o">Prefiero no decir <br>
+            </div>
+            <div>
+                <label for="pais">Pais nacimiento del usuario</label><br>
+                <select name="pais" id="">
+                    <option value="argentina">Argentina</option>
+                    <option value="brasil">Brasil</option>
+                    <option value="ecuador">Ecuador</option>
+                    <option value="paraguay">Paraguay</option>
+                    <option value="uruguay">Uruguay</option>
+                </select>
+            </div>
+            <div>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+            </div>
+        </form>
+    </section>
+    
 </body>
+
 </html>

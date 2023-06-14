@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="" method="post">
+        <h1>Registrar Usuario</h1>
+        <div>
+            <label for="nombre">Ingrese Nombre del Usuario</label><br>
+            <input type="text" name="nombre" placeholder="Nombre y Apellido" required>
+        </div>
+        <div>
+            <label for="contrasenia">Ingrese Contraseña del Usuario</label><br>
+            <input type="password" maxlength="10" minlength="6" name="contrasenia" placeholder="Contraseña" required>
+        </div>
+        <div>
+            <label for="edad">Ingrese Edad del Usuario</label><br>
+            <input type="number" max="120" name="edad" placeholder="Edad" required>
+        </div>
+        <div>
+            <label for="nacimiento">Ingrese Fecha de nacimiento del Usuario</label><br>
+            <input type="date" name="fecha" placeholder="fecha de nacimiento">
+        </div>
+        
+        <div>
+            <label for="email">Ingrese e-mail  del Usuario</label><br>
+            <input type="email" name="email" placeholder="ejemplo@ejemplo.com">
+        </div>
+        
+        <div>
+            <label for="sexo">Ingrese Sexo del Usuario</label><br>
+            <input type="radio" name="sexo" value="h">Hombre <br>
+            <input type="radio" name="sexo" value="m">Mujer <br>
+            <input type="radio" name="sexo" value="c">Se autopercibe cabra <br>
+        </div>
+       
+        <div>
+            <label>Ingrese el Pais del Usuario</label> <br>
+            <select name="pais">
+                <option value="argentina">Argentina</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="otro">Otro</option>
+            </select>
+        </div>
+        
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+</body>
+
+</html>
